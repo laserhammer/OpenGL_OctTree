@@ -1,0 +1,24 @@
+﻿Build started 11/7/2014 2:06:47 PM.
+     1>Project "J:\Systems\Optimization\OctreeTest\OctreeTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"J:\Systems\Optimization\opengl-wrappers\glew\include" /I"J:\Systems\Optimization\opengl-wrappers\glfw\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>j:\systems\optimization\octreetest\main.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>j:\systems\optimization\octreetest\main.cpp(86): warning C4305: '=' : truncation from 'double' to 'float'
+     1>j:\systems\optimization\octreetest\main.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Systems\Optimization\Debug\OctreeTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"J:\Systems\Optimization\opengl-wrappers\glew\lib\Release\Win32" /LIBPATH:"J:\Systems\Optimization\opengl-wrappers\glfw\lib-msvc110" opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Systems\Optimization\Debug\OctreeTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Systems\Optimization\Debug\OctreeTest.lib" /MACHINE:X86 Debug\icosphere.obj
+         Debug\init_shader.obj
+         Debug\main.obj
+         Debug\octree.obj
+         Debug\patch.obj
+         Debug\renderer.obj
+         Debug\sphereCollider.obj
+         Debug\teapot.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         OctreeTest.vcxproj -> J:\Systems\Optimization\Debug\OctreeTest.exe
+     1>Done Building Project "J:\Systems\Optimization\OctreeTest\OctreeTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.23

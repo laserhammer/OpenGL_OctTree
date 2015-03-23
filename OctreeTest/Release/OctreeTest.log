@@ -1,0 +1,26 @@
+﻿Build started 2/3/2015 11:34:23 AM.
+     1>Project "J:\Systems\Optimization\OctreeTest\OctreeTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"J:\Systems\Optimization\opengl-wrappers\glfw\include" /I"J:\Systems\Optimization\opengl-wrappers\glew\include" /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /RTCu /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt init_shader.cpp octree.cpp
+         init_shader.cpp
+         octree.cpp
+     1>octree.cpp(422): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Systems\Optimization\Release\OctreeTest.exe" /NOLOGO /LIBPATH:"J:\Systems\Optimization\opengl-wrappers\glew\lib\Release\Win32" /LIBPATH:"J:\Systems\Optimization\opengl-wrappers\glfw\lib-msvc110" opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Systems\Optimization\Release\OctreeTest.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Systems\Optimization\Release\OctreeTest.lib" /MACHINE:X86 /PROFILE /SAFESEH Release\icosphere.obj
+         Release\init_shader.obj
+         Release\main.obj
+         Release\octree.obj
+         Release\octreeManager.obj
+         Release\patch.obj
+         Release\renderer.obj
+         Release\sphereCollider.obj
+         Release\teapot.obj
+         Generating code
+     1>j:\systems\optimization\octreetest\patch.cpp(186): warning C4715: 'Patch::operator[]' : not all control paths return a value
+         Finished generating code
+         OctreeTest.vcxproj -> J:\Systems\Optimization\Release\OctreeTest.exe
+     1>Done Building Project "J:\Systems\Optimization\OctreeTest\OctreeTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:28.85
